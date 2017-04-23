@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt,line]{article}
+% importing all the necessary packages before getting begin the document
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage[top=0in, bottom=0in, left=0.35in, right=0.85in]{geometry}
+\usepackage{tikz}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\pagecolor{yellow!0}
+\color{black}
+\definecolor{rd}{RGB}{255,127,37}%manually defining a colour by giving RGB values
+\pagestyle{empty}
+\setlength{\parindent}{10ex}
+\renewcommand{\baselinestretch}{1.5}
+
+
+%initialising a document
+\begin{document}
+	
+	%initialising space for creation of Top Red colour border>This is the theme of the Resume
+	%-----------by drawing a rectangle filled with predefined color
+	%using hspace to make the rectange to fit perfectly at the head of document
+	\hspace*{-19mm}
+	\begin{tikzpicture}
+		\draw [fill=rd,rd] (0,0) rectangle (19.4,0.5);
+	\end{tikzpicture}
+	\vspace*{3pt}
+\end{document}
