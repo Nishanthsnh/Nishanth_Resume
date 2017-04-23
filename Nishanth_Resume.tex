@@ -6,6 +6,7 @@
 \usepackage{tikz}
 \usepackage{tabularx}
 \usepackage{hyperref}
+\usepackage{colortbl}
 \pagecolor{yellow!0}
 \color{black}
 \definecolor{rd}{RGB}{255,127,37}%manually defining a colour by giving RGB values
@@ -51,7 +52,7 @@
 		5/309,	
 		Rajiv gandhi nagar,\\
 		Salem Road,\\
-		Namakkal,\hspace{9.6cm}Mobile : 7200331572\\
+		Namakkal,\hspace{9.6cm}Mobile : +91-7200331572\\
 		Tamilnadu.\hspace{9.5cm}E-mail : nishanthsnh@gmail.com\\
 		
 		\begin{picture}(0,0)
@@ -67,5 +68,24 @@
 	
 		\hspace{10mm}To get and share my knowledge to the platform where I work, and to innovate an useful, service based idea for the growth of my Nation as well as my workplace
 		
+		
+	%---------------------------- #5 ---------------------%
+	
+	%Initiation of table of 5 columns centered text with out vertical line
+	%Colouring the row for highliting using colortbl package
+	\section*{\color{magenta}Education}
+	\begin{tabular}{ccccc}
+		%\hline
+		\rowcolor{yellow!20}
+		\color{blue}\textsc{Degree}&\color{blue}\textsc{College/School}&\color{blue}\textsc{Board}&\color{blue}\textsc{Passing Year} &\color{blue}\textsc{Percentage}\\%\hline
+		\rowcolor{orange!30}
+		B.E(EIE)&M.Kumarasamy College of Engineering&Anna University&2017&8.1\textsuperscript{*}\\\rowcolor{orange!30}
+		HSC&Bharathi higher secondary school&StateBoard&2013&86\\\rowcolor{orange!30}
+		SSLC&Bharathi higher secondary school&StateBoard&2011&94\\
+		
+	\end{tabular}
+	\begin{flushright}
+		*upto 7th semester
+	\end{flushright}
 		
 \end{document}
