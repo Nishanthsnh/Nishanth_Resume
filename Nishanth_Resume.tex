@@ -17,7 +17,7 @@
 %initialising a document
 \begin{document}
 	
-	%Commit 1
+	%Section 1
 	%initialising space for creation of Top Red colour border>This is the theme of the Resume
 	%-----------by drawing a rectangle filled with predefined color
 	%using hspace to make the rectange to fit perfectly at the head of document
@@ -28,7 +28,7 @@
 	\vspace*{3pt}
 	
 	
-	%Commit 2
+	%Section 2
 	%Name -- using color and Huge,LARGE size fonts and Bolded type of text
 	%First name with full darkness in colour and Sur name at level 60 darkness
 	%This is to differentiate The First name and Last name
@@ -37,6 +37,28 @@
 		\vspace{13pt}	
 		{\color{magenta!60}\hspace{.8cm}\Huge{S}\LARGE\textsc{HANMUGAM}}\\
 	\end{center}
-
+	\vspace*{13pt}
+	
+	%Section 3
+	% Permanant address and contact information
+	%Using flush left to allign the address to the left margin of the page
+	%
+	%-----Inserting profile pic at the declared location ,say (put(420,230))
+	%and adjusting the width of the pic
+	%
+	%The pic should be stored in the location of this Program
+	\begin{flushleft}
+		5/309,	
+		Rajiv gandhi nagar,\\
+		Salem Road,\\
+		Namakkal,\hspace{9.6cm}Mobile : 7200331572\\
+		Tamilnadu.\hspace{9.5cm}E-mail : nishanthsnh@gmail.com\\
+		
+		\begin{picture}(0,0)
+		\put(420,130){\includegraphics[width=30mm]{my.jpg}}
+		\end{picture}
+		
+	\end{flushleft}
+	\vspace{-15mm}
 
 \end{document}

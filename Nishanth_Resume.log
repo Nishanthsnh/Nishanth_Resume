@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.21)  23 APR 2017 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.21)  23 APR 2017 16:15
 entering extended mode
 **./Nishanth_Resume.tex
 (Nishanth_Resume.tex
@@ -604,32 +604,38 @@ Overfull \hbox (41.81761pt too wide) in paragraph at lines 24--29
 []|  []
  []
 
-[1
+<my.jpg, id=6, 113.7048pt x 142.131pt>
+File: my.jpg Graphic file (type jpg)
+ <use my.jpg>
+Package pdftex.def Info: my.jpg used on input line 58.
+(pdftex.def)             Requested size: 85.35826pt x 106.69772pt.
+ [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./my.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
  (Nishanth_Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
 Package rerunfilecheck Info: File `Nishanth_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
  ) 
 Here is how much of TeX's memory you used:
- 15422 strings out of 493333
- 293253 string characters out of 3139185
+ 15428 strings out of 493333
+ 293306 string characters out of 3139185
  359003 words of memory out of 3000000
- 18714 multiletter control sequences out of 15000+200000
+ 18718 multiletter control sequences out of 15000+200000
  5451 words of font info for 20 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,54p,420b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,6n,54p,420b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Nishanth_Resume.pdf (1 page, 27117 bytes).
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Nishanth_Resume.pdf (1 page, 184271 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 31 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
